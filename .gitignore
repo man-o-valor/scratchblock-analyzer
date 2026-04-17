@@ -1,4 +1,3 @@
 projects
-block_stats.json
+project_stats.json
 block_counts.json
-block_counts_presence.json

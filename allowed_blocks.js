@@ -65,7 +65,6 @@ export const allowedBlocks = [
   "event_whenthisspriteclicked",
 
   // control
-  "control_all_at_once",
   "control_create_clone_of",
   "control_delete_this_clone",
   "control_forever",
@@ -97,7 +96,6 @@ export const allowedBlocks = [
   "sensing_timer",
   "sensing_touchingcolor",
   "sensing_touchingobject",
-  "sensing_userid",
   "sensing_username",
 
   // operators
@@ -121,6 +119,8 @@ export const allowedBlocks = [
   "operator_subtract",
 
   // data
+  "variable",
+  "list",
   "data_addtolist",
   "data_changevariableby",
   "data_deletealloflist",
@@ -155,8 +155,6 @@ export const allowedBlocks = [
 
   // pen
   "pen_changePenColorParamBy",
-  "pen_changePenHueBy",
-  "pen_changePenShadeBy",
   "pen_changePenSizeBy",
   "pen_clear",
   "pen_penDown",
@@ -170,7 +168,7 @@ export const allowedBlocks = [
   "videoSensing_setVideoTransparency",
   "videoSensing_videoOn",
   "videoSensing_videoToggle",
-  "videoSensing_whenMotionGreaterThan",
+  "videoSensing_whenMotionGreaterThan",/*
 
   // face sensing
   "faceSensing_faceIsDetected",
@@ -181,7 +179,7 @@ export const allowedBlocks = [
   "faceSensing_setSizeToFaceSize",
   "faceSensing_whenFaceDetected",
   "faceSensing_whenSpriteTouchesPart",
-  "faceSensing_whenTilted",
+  "faceSensing_whenTilted",*/
 
   // text to speech
   "text2speech_setLanguage",
@@ -190,7 +188,7 @@ export const allowedBlocks = [
 
   // translate
   "translate_getTranslate",
-  "translate_getViewerLanguage",
+  "translate_getViewerLanguage",/*
 
   // makey makey
   "makeymakey_whenCodePressed",
@@ -270,6 +268,8 @@ export const allowedBlocks = [
   "sensing_loud",
   "pen_setPenHueToNumber",
   "pen_setPenShadeToNumber",
+  "pen_changePenHueBy",
+  "pen_changePenShadeBy",
 
   // hacked (useless)
   "motion_align_scene",
